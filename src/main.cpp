@@ -4,6 +4,7 @@
 #include <liquidCrystal_I2C.h>
 #define RST_PIN         9  // RC522 RST pini
 #define SS_PIN          10 // RC522 SDA (SS) pini
+//v1.0.0
 
 MFRC522 mfrc522(SS_PIN, RST_PIN); // RC522 nesnesi oluştur
 LiquidCrystal_I2C lcd(0x27,20,4);
